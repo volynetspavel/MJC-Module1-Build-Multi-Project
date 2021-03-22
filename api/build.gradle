@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = "com.volynets.api.App"
+
+dependencies {
+    compile project(':core')
+}
